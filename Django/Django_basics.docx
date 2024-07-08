@@ -22,3 +22,9 @@ The files created inside the new project are
 
 Starting the project
         python/python3 manage.py runserver
+
+To create an application 
+        python3 manage.py startapp APP_NAME
+
+To install our new app
+        Go to settings.py and go to INSTALLED_APPS and add the 'THENEWAPP'
