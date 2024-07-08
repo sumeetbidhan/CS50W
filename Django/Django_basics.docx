@@ -1,0 +1,24 @@
+Status Code   ------------   Description
+  200              -          OK
+  301              -          Moved Permanently 
+  403              -          Forbidden
+  404              -          Not Found
+  500              -          Internal Server Error
+
+
+Installing Django
+      pip3 install Django
+
+Creating number of starter files for our project
+        django-admin startproject PROJECT_NAME
+
+The files created inside the new project are
+    manage.py   is what we use to execute commands on our terminal. We won't have to edit it, but we'll use it often.
+
+    settings.py  contains some important configurations settings for our new project. There are some default settings, but we   may wish to change some of them from time to time.
+
+    urls.py    contains directions for where users should be routed after navigating to a certain URL.
+
+
+Starting the project
+        python/python3 manage.py runserver
